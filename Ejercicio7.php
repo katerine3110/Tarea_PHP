@@ -17,7 +17,7 @@
         { 
             if($numero / $i == 0)
             { 
-              $cuenta++;
+              $cuenta=$numero/$i;
             }
         }
           if($cuenta == 2)
