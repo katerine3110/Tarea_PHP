@@ -8,10 +8,11 @@
 
     header("Content-type: text/html; charset=\"utf-8\"");
     
+    $cuenta=0;
+    
    if(is_numeric($_GET['numero'])&& $_GET['numero']>=1)
     {
         $numero=$_GET['numero'];
-        $cuenta=0;
         for($i=1; $i<=$numero;$i++)
         { 
             if($numero / $i == 0)
