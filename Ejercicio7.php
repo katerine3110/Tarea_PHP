@@ -15,14 +15,19 @@
         for($i=1; $i<=$numero;$i++)
         { 
             if($numero/$i==0)
-            { $cuenta=$cuenta+1;}
-          }
-        
+            { 
+              $cuenta=$cuenta+1;
+            }
+        }
           if($cuenta==2)
-          { echo"<p>Es primo.</p>";}
+          {
+             echo"<p>Es primo.</p>";}
 
-          else {echo"<p>No es primo $cuenta</p>" ;}
+          else {
+            echo"<p>No es primo $cuenta</p>" ;}
                 
+        
+        
     }
     else {
         echo "<h3>Numero no valido.</h3>";
