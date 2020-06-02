@@ -11,7 +11,7 @@
    if(is_numeric($_GET['numero'])&& $_GET['numero']>=1)
     {
         $numero=$_GET['numero'];
-        $cuenta;
+        $cuenta=0;
         for($i=1; $i<=$numero;$i++)
         { 
             if($numero/$i==0)
