@@ -23,7 +23,7 @@
         
           if($cuenta == 2)
           {
-             echo"<h3>Es primo.</h3>";}
+             echo"<h3>$numero,Es primo.</h3>";}
 
           else {
             echo"<h3>$numero, No es primo </h3>" ;}
