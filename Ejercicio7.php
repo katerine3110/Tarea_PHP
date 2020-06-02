@@ -21,10 +21,10 @@
         }
           if($cuenta == 2)
           {
-             echo"<p>Es primo.</p>";}
+             echo"<h3>Es primo.</h3>";}
 
           else {
-            echo"<p>$numero, $i, $cuenta No es primo </p>" ;}
+            echo"<h3>$numero, $i, $cuenta No es primo </h3>" ;}
                 
         
         
