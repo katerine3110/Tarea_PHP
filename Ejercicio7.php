@@ -24,7 +24,7 @@
              echo"<p>Es primo.</p>";}
 
           else {
-            echo"<p>No es primo $cuenta</p>" ;}
+            echo"<p>$numero No es primo </p>" ;}
                 
         
         
