@@ -6,7 +6,7 @@
     <?php
 
     $NombreClase ="Lenguaje 4";
-    echo "<html><head><meta charset="utf-8"></head>";
+    echo "<html><head><meta charset=\"utf-8\"></head>";
     echo"<body>";
     echo "<h2>Esta es la clase $NombreClase mañana y tarde (Simbolo)</h2>";
     echo "<h2>Esta es otra fila de la clase de ".$NombreClase." con dos cadenas concatenadas </h2>";
