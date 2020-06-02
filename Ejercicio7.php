@@ -14,12 +14,12 @@
         $cuenta=0;
         for($i=1; $i<=$numero;$i++)
         { 
-            if($numero/$i==0)
+            if($numero / $i == 0)
             { 
               $cuenta++;
             }
         }
-          if($cuenta==2)
+          if($cuenta == 2)
           {
              echo"<p>Es primo.</p>";}
 
