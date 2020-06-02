@@ -17,7 +17,7 @@
         { 
             if($numero / $i == 0)
             { 
-              $cuenta++;
+              $cuenta=$cuenta + 1;
             }
         }
         $c=$numero/$i;
@@ -26,7 +26,7 @@
              echo"<h3>Es primo.</h3>";}
 
           else {
-            echo"<h3>$numero, $i, $c No es primo </h3>" ;}
+            echo"<h3>$numero, No es primo </h3>" ;}
                 
         
         
