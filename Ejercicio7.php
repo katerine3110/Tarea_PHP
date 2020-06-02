@@ -15,7 +15,7 @@
         for($i=1; $i<=$numero;$i++)
         { 
             if($numero/$i==0)
-            { $cuenta++  ;}
+            { $cuenta=$cuenta+1;}
           }
         
           if($cuenta==2)
