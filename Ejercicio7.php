@@ -19,7 +19,7 @@
           }
         
           if($cuenta==2)
-          { echo"<p>Es primo</p>";}
+          { echo"<p>Es primo."$numero."</p>";}
 
           else {echo"<p>No es primo</p>" ;}
                 
