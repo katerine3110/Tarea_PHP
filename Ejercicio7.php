@@ -1,14 +1,9 @@
 <!doctype html>
 <html>
 <body>
-  <h1>Ejercicio 4</h1>
+  <h1>Ejercicio 7</h1>
 
-
-    <form>
-    Escribe un numero:
-    <input name="numero" type="text" placeholder="Numero">
-    <input type="submit"value="Registrar">
-    </form>
+    
     <?php
 
     header("Content-type: text/html; charset=\"utf-8\"");
@@ -25,6 +20,7 @@
         
           if($cuenta==2)
           { echo"<p>Es primo</p>";}
+
           else {echo"<p>No es primo</p>" ;}
                 
     }
@@ -33,6 +29,11 @@
     }
     
     ?>  
+    <form>
+    Escribe un numero:
+    <input name="numero" type="text" placeholder="Numero">
+    <input type="submit"value="Aceptar">
+    </form>
 
 
 </body>
