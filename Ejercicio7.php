@@ -15,12 +15,12 @@
         $numero=$_GET['numero'];
         for($i=1; $i<=$numero;$i++)
         { 
-            if($numero / $i == 0)
+            if($numero % $i == 0)
             { 
-              $cuenta=$cuenta + 1;
+              $cuenta= $cuenta + 1;
             }
         }
-        $c=$numero/$i;
+        
           if($cuenta == 2)
           {
              echo"<h3>Es primo.</h3>";}
